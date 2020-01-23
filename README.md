@@ -19,13 +19,13 @@ sudo apt install nginx
 This script runs based on the following server setup.
 ```
 ├┬ /var/www/html
-│└  \[SITE_NAME\]
+│└ [SITE_NAME]
 │
 ├┬ /etc/nginx/sites-available
-│└ \[SITE_NAME\]
+│└ [SITE_NAME]
 │
 ├┬ /etc/nginx/sites-enabled
-│└ \[SITE_NAME\]
+│└ [SITE_NAME]
 ```
 
 ### Nginx Configuration
@@ -58,7 +58,7 @@ server {
 ```
 
 # Authors
-Andrew De Torres - [@andrewdetorres](https://github.com/andrewdetorres)
+ - Andrew De Torres - [@andrewdetorres](https://github.com/andrewdetorres)
 See also the list of [contributors](https://github.com/andrewdetorres/SiteGen/graphs/contributors) who participated in this project.
 
 With thanks to Reece Benson for the idea - [@reecebenson](https://github.com/reecebenson)
